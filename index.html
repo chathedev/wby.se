@@ -2,10 +2,50 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://webstay.se">
-  <title>Omdirigerar...</title>
+  <meta http-equiv="refresh" content="3; url=https://webstay.se">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omdirigerar till Webstay...</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      color: #2f3542;
+      animation: fadeIn 1s ease-in;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
 </head>
 <body>
-  <p>Omdirigerar till <a href="https://webstay.se">webstay.se</a>...</p>
+  <h1>Du omdirigeras nu till Webstay 🚀</h1>
+  <p>Om det inte sker automatiskt, <a href="https://webstay.se">klicka här</a>.</p>
 </body>
 </html>
